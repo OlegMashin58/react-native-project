@@ -1,10 +1,12 @@
 import { StyleSheet, View } from "react-native";
-import { LoginForm } from "./components/LoginForm/LoginForm";
+// import { LoginForm } from "./components/LoginForm/LoginForm";
+import RegistrationForm from "./components/RegistrationForm/RegistrationForm";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <LoginForm onSubmit={() => alert("Button pressed")} />
+      {/* <LoginForm onSubmit={() => alert("Button pressed")} /> */}
+      <RegistrationForm />
     </View>
   );
 }
